@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/usr/bin/python3",
+    "git.path": "/usr/bin/git",
+    "remote.SSH.remotePlatform": {
+        "raspberrypi": "linux",
+        "178.62.95.128": "linux"
+    },
+    // "python.linting.pylintArgs": [
+    //     "--generate-members"
+    // ],
+    "python.linting.enabled" : true,
+    "python.linting.lintOnSave" : true,
+    "jupyter.disableJupyterAutoStart": true,
+    "jupyter.useNotebookEditor": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}

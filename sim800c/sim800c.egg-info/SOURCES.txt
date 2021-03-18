@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+sim800c/sim800c.egg-info/PKG-INFO
+sim800c/sim800c.egg-info/SOURCES.txt
+sim800c/sim800c.egg-info/dependency_links.txt
+sim800c/sim800c.egg-info/top_level.txt
