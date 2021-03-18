@@ -1,5 +1,0 @@
-https://test.pypi.org/manage/projects/
-
-python3 -m build
-
-twine upload -r testpypi dist/*
