@@ -11,7 +11,7 @@ Provides interfaces to SMS, TCP and HTTP methods.  Principally just a wrapper ar
 
 ## Configuration:
 
-The following environment variables can be used to override defaul initialisation variables:
+The following environment variables can be used to override default initialisation variables:
 
 * SIM800_SERIAL_PORT
 * SIM800_BAUD_RATE
@@ -50,7 +50,7 @@ python3
 # HTTP GET
 >>> response_data = gprs.http_get('http://some.endpoint.com')
 # HTTPS GET
->>> response_data = gprs.https_get('http://some.endpoint.com')
+>>> response_data = gprs.https_get('https://some.endpoint.com')
 # HTTP POST
 >>> response_data = gprs.http_post('http://some.post.endpoint', data_to_be_sent)
 ```
